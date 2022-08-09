@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 public class HomeWork4 {
     public static void main(String[] args) {
         int[] myArray = new int[10];
@@ -9,14 +10,22 @@ public class HomeWork4 {
         System.out.println("Enter an integer from 0 to 20");
         Scanner scanner = new Scanner(System.in);
         int t = scanner.nextInt();
-        if (t=i) {
+        int [] myArray1 =  myArray;
+        Arrays.sort(myArray);
 
-                            System.out.println("Match");
+
+        int pos1 = Arrays.binarySearch(myArray1,t);
+
+               System.out.println(pos1);
+
+
+
+
                 }
             }
 
 
-        }
+
 
 
 

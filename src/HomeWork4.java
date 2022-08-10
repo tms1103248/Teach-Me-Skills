@@ -43,12 +43,8 @@ public class HomeWork4 {
         }
         System.out.println(average);
         System.out.println(arr.length);
-        //float sum = 0;
-        // for (float e=0; e<arr.length; e++){
-        //    sum=(sum+arr[t])/t;
-        // }
-        // System.out.println("Sum of the elements of an array:" + sum);
 
+// 3 Задача homeWork4
 
         int[] mas1 = new int[5];
         int[] mas2 = new int[5];

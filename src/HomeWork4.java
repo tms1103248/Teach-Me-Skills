@@ -152,7 +152,21 @@ public class HomeWork4 {
 
 
         }
+// 5 Задача homeWork4
+        int [] mas5 = new int[10];
+        for (int i=0; i<mas5.length; i++) {
+            mas5[i]= (int) (Math.random()*10)+1;
+        }
+        System.out.println(Arrays.toString(mas5));
+        for (int i=0; i<mas5.length; i++) {
+            if (mas5 [i]%2==1) {
+                mas5[i]=0;
+            }
+        }
+        System.out.println(Arrays.toString(mas5));
     }
+
+
 }
 
 

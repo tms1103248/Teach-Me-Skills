@@ -2,15 +2,52 @@ import java.util.Scanner;
 import java.util.Arrays;
 public class HomeWork4 {
     public static void main(String[] args) {
+// Задача 0 homeWork4
+        System.out.println("Insert a number");
         int[] myArray = new int[10];
+        Scanner scanner = new Scanner(System.in);
+        int j = scanner.nextInt();
+
         for (int i = 0; i < myArray.length; i++) {
-            myArray[i] = (int) (Math.random() * 10);
-            System.out.println(myArray[i]);
+            myArray[i] = (int) (Math.random() * 10)+1;
+            //System.out.println(myArray[i]);
+            if (j == myArray [i]) {
+                System.out.println("The number is in the array");
+                System.out.println(myArray[i]);
+                } else {
+               System.out.print("The number is out of array");
+                System.out.println(myArray [i]);
+            }
 
         }
+        System.out.println(Arrays.toString(myArray));
+
+// Задача 1 homeWork4
+        System.out.println("Insert a number:");
+        int myArray1 [] = new int[10];
+        int k = scanner.nextInt();
+        for (int i = 0; i < myArray1.length; i++) {
+            myArray1[i] = (int) (Math.random() * 10+1);
+        }
+        for (int i =0; i<myArray1.length; i++) {
+            if (k != myArray1[i]) {
+                System.out.println("No match");
+            } else if (k==myArray1[i]) {
+                System.out.println("Match");
+                            }
+        }
+        System.out.println(Arrays.toString(myArray1));
+        for (int i =0; i<myArray1.length; i++) {
+            if (k==myArray1[i]) {
+                myArray1[i]=0;
+            }
+        }
+        System.out.println(Arrays.toString(myArray1));
+
+
 // 2 задача homeWork4
-        System.out.println("Enter an integer from 0 to 20");
-        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter a number from 0 to 20");
+
         int t = scanner.nextInt();
         int[] arr = new int[t];
         System.out.println(arr);

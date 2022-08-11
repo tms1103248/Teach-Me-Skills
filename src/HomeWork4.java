@@ -128,7 +128,7 @@ public class HomeWork4 {
                 if (n < 5) {
                     System.out.println("False. A number must be in range from 5 to 10. Try one more time.");
                 } else {
-                    System.out.println("Try again. You do not entered number.");
+                    System.out.println("Match.");
                 }
             }
             int[] mas3 = new int[n];
